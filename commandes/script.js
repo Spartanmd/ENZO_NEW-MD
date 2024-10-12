@@ -35,23 +35,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-     *ANYWAY MD IMPORTANT INFO* 
+     *ENZO MD INFORMATION* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/SIMON32883/MR-ANYWAY-MD
+> https://github.com/ENZOTECH254/ENZO_NEW-MD
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09
+> https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D
 ⁠
 ╭───────────────────❒
-│❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *Mr anyway*
-│❒⁠⁠⁠⁠ *DEV2* : *Baraka Bega*
+│❤️ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│💎 *DEV1* : *ENZO*
+│📸 *DEV2* : *POPKID*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *Anyway Tech*
+     *Enzo Tech*
 
 ❒────────────────────❒`;
 
