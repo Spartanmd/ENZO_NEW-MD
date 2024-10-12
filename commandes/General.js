@@ -51,17 +51,17 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, 
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "General", reaction: "💎" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Anyway", numero: "255678892560" },
-      { nom: "᚛Ibrahim᚜", numero: "254710772666" },
-      { nom: "Baraka", numero: "255762190568" },
+      { nom: "enzo", numero: "25784115308" },
+      { nom: "᚛popkid᚜", numero: "254111385747" },
+      { nom: "ian", numero: "254732297194" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO ANYWAY-MD-V1 HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO ENZO MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING ANYWAY-MD-V1, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/C7tunMI1UjV3mRcdR9Evgz] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n*Created By Mr anyway") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING ANYWAY-MD-V1,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING ENZO, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/EigMv0yMF58KDTquG02buh] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n*Created By ENZO") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING ENZO MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
