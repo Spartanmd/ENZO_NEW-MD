@@ -73,8 +73,8 @@ else {
     } else {
         if(!superUser) { repondre("😂😂ushai ona enzo ikilala") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake thinks :)")
+      await   repondre("sasa ata we tu ushaiskia enzo md imelala😂😂we  fanya kitu ya maana");
+         repondre("nmeenda😂 :)")
      }
  } else {
 
